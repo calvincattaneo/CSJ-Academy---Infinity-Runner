@@ -6,8 +6,13 @@ public class Player : MonoBehaviour {
 
     public float Speed;
     public float JumpForce;
+    public GameObject smoke;
     private Rigidbody2D rig;
     private bool isJumping;
+
+    public GameObject bullet;
+    public Transform firePoint;
+
     void Start() {
         rig = GetComponent<Rigidbody2D>();
     }
@@ -20,12 +25,19 @@ public class Player : MonoBehaviour {
         if(Input.GetKeyDown(KeyCode.Space) && !isJumping) {
             rig.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
             isJumping = true;
+            smoke.SetActive(true);
+        }
+
+        //Tiro
+        if(Input.GetKeyDown(KeyCode.Z)) {
+            Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.layer == 8) {
             isJumping = false;
+            smoke.SetActive(false);
         }
     }
 }
