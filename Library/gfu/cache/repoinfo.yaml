@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-10-04T16:53:07.207-03:00
-  initializedAtString: 2020-10-04T16:22:38.779-03:00
+  lastUpdatedAtString: 2020-10-13T06:27:12.498-03:00
+  initializedAtString: 2020-10-13T06:27:12.498-03:00
   currentGitRemote:
     name: origin
     url: https://github.com/calvincattaneo/CSJ-Academy---Infinity-Runner.git

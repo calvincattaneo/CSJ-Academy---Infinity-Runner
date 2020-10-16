@@ -13,9 +13,381 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-10-04T16:52:51.907-03:00
-  initializedAtString: 2020-10-04T16:22:40.025-03:00
+  lastUpdatedAtString: 2020-10-13T06:18:42.243-03:00
+  initializedAtString: 2020-10-13T06:18:42.243-03:00
   log:
+  - commitID: af7d8aebee1e16f8682fd020e5bc60bf8a34409d
+    mergeA: 
+    mergeB: 
+    authorName: Calvin Cattaneo
+    authorEmail: calvin.cattaneo@gmail.com
+    commitEmail: calvin.cattaneo@gmail.com
+    commitName: Calvin Cattaneo
+    summary: part 3
+    description: 
+    timeString: 2020-10-04T17:08:15.000-03:00
+    commitTimeString: 2020-10-04T17:08:15.000-03:00
+    changes:
+    - path: .vs\Infinity Runner Game\v16\.suo
+      fullPath: D:\Unity\Infinity Runner Game\.vs\Infinity Runner Game\v16\.suo
+      projectPath: .vs\Infinity Runner Game\v16\.suo
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp-Editor-firstpass.csproj
+      fullPath: D:\Unity\Infinity Runner Game\Assembly-CSharp-Editor-firstpass.csproj
+      projectPath: Assembly-CSharp-Editor-firstpass.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assembly-CSharp.csproj
+      fullPath: D:\Unity\Infinity Runner Game\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Animations\Jetpack_smoke.anim
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Jetpack_smoke.anim
+      projectPath: Assets\Animations\Jetpack_smoke.anim
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Jetpack_smoke.anim.meta
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Jetpack_smoke.anim.meta
+      projectPath: Assets\Animations\Jetpack_smoke.anim.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Player 2.controller
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Player 2.controller
+      projectPath: Assets\Animations\Player 2.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Player 2.controller.meta
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Player 2.controller.meta
+      projectPath: Assets\Animations\Player 2.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Player 3.controller
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Player 3.controller
+      projectPath: Assets\Animations\Player 3.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Player 3.controller.meta
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Player 3.controller.meta
+      projectPath: Assets\Animations\Player 3.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Smoke.controller
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Smoke.controller
+      projectPath: Assets\Animations\Smoke.controller
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Animations\Smoke.controller.meta
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Animations\Smoke.controller.meta
+      projectPath: Assets\Animations\Smoke.controller.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bullet.prefab
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Prefabs\Bullet.prefab
+      projectPath: Assets\Prefabs\Bullet.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Bullet.prefab.meta
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Prefabs\Bullet.prefab.meta
+      projectPath: Assets\Prefabs\Bullet.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Platform 1.prefab
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Prefabs\Platform 1.prefab
+      projectPath: Assets\Prefabs\Platform 1.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Platform 2.prefab
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Prefabs\Platform 2.prefab
+      projectPath: Assets\Prefabs\Platform 2.prefab
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullet.cs
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Scripts\Bullet.cs
+      projectPath: Assets\Scripts\Bullet.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Bullet.cs.meta
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Scripts\Bullet.cs.meta
+      projectPath: Assets\Scripts\Bullet.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\Player.cs
+      fullPath: D:\Unity\Infinity Runner Game\Assets\Scripts\Player.cs
+      projectPath: Assets\Scripts\Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\CurrentLayout.dwlt
+      fullPath: D:\Unity\Infinity Runner Game\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\EditorInstance.json
+      fullPath: D:\Unity\Infinity Runner Game\Library\EditorInstance.json
+      projectPath: Library\EditorInstance.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Library\InspectorExpandedItems.asset
+      fullPath: D:\Unity\Infinity Runner Game\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor-firstpass.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Assembly-CSharp.pdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.PackageManagerUI.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      fullPath: D:\Unity\Infinity Runner Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      projectPath: Library\ScriptAssemblies\Unity.TextMeshPro.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\Hierarchy\32d690-mainStage.json
+      fullPath: D:\Unity\Infinity Runner Game\Library\StateCache\Hierarchy\32d690-mainStage.json
+      projectPath: Library\StateCache\Hierarchy\32d690-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\StateCache\SceneView\a3bc4e-mainStage.json
+      fullPath: D:\Unity\Infinity Runner Game\Library\StateCache\SceneView\a3bc4e-mainStage.json
+      projectPath: Library\StateCache\SceneView\a3bc4e-mainStage.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\assetDatabase3
+      fullPath: D:\Unity\Infinity Runner Game\Library\assetDatabase3
+      projectPath: Library\assetDatabase3
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\expandedItems
+      fullPath: D:\Unity\Infinity Runner Game\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\branches.yaml
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\gitlocks.yaml
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gitstatusentries.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\gitstatusentries.yaml
+      projectPath: Library\gfu\cache\gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\gittrackingstatus.yaml
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\gfu\cache\gituser.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\gituser.yaml
+      projectPath: Library\gfu\cache\gituser.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\gfu\cache\repoinfo.yaml
+      fullPath: D:\Unity\Infinity Runner Game\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\00\00008980cfc568f48bdce586704a53dd
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\00\00008980cfc568f48bdce586704a53dd
+      projectPath: Library\metadata\00\00008980cfc568f48bdce586704a53dd
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\00\00008980cfc568f48bdce586704a53dd.info
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\00\00008980cfc568f48bdce586704a53dd.info
+      projectPath: Library\metadata\00\00008980cfc568f48bdce586704a53dd.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\11\11d478403ccfabd49ab4e115393fd900
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\11\11d478403ccfabd49ab4e115393fd900
+      projectPath: Library\metadata\11\11d478403ccfabd49ab4e115393fd900
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\27\27907ef770187764bb16fd14edf1403b
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\27\27907ef770187764bb16fd14edf1403b
+      projectPath: Library\metadata\27\27907ef770187764bb16fd14edf1403b
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\27\27907ef770187764bb16fd14edf1403b.info
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\27\27907ef770187764bb16fd14edf1403b.info
+      projectPath: Library\metadata\27\27907ef770187764bb16fd14edf1403b.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\27\279f956f523093e4b979a6c078541921
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\27\279f956f523093e4b979a6c078541921
+      projectPath: Library\metadata\27\279f956f523093e4b979a6c078541921
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\27\279f956f523093e4b979a6c078541921.info
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\27\279f956f523093e4b979a6c078541921.info
+      projectPath: Library\metadata\27\279f956f523093e4b979a6c078541921.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\56\567b74f58b980f948b811d22306ba80e
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\56\567b74f58b980f948b811d22306ba80e
+      projectPath: Library\metadata\56\567b74f58b980f948b811d22306ba80e
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\70\709b6fc84e5564843b8c67e487a6e551
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\70\709b6fc84e5564843b8c67e487a6e551
+      projectPath: Library\metadata\70\709b6fc84e5564843b8c67e487a6e551
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Library\metadata\92\92cc3af826115ff439645279cba9a22f
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\92\92cc3af826115ff439645279cba9a22f
+      projectPath: Library\metadata\92\92cc3af826115ff439645279cba9a22f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\92\92cc3af826115ff439645279cba9a22f.info
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\92\92cc3af826115ff439645279cba9a22f.info
+      projectPath: Library\metadata\92\92cc3af826115ff439645279cba9a22f.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\b9\b9bbedb167792af40a216474f7be25bb
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\b9\b9bbedb167792af40a216474f7be25bb
+      projectPath: Library\metadata\b9\b9bbedb167792af40a216474f7be25bb
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\b9\b9bbedb167792af40a216474f7be25bb.info
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\b9\b9bbedb167792af40a216474f7be25bb.info
+      projectPath: Library\metadata\b9\b9bbedb167792af40a216474f7be25bb.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\e7\e7544e5ef5c8ac940928fbab537e4559
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\e7\e7544e5ef5c8ac940928fbab537e4559
+      projectPath: Library\metadata\e7\e7544e5ef5c8ac940928fbab537e4559
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\metadata\e7\e7544e5ef5c8ac940928fbab537e4559.info
+      fullPath: D:\Unity\Infinity Runner Game\Library\metadata\e7\e7544e5ef5c8ac940928fbab537e4559.info
+      projectPath: Library\metadata\e7\e7544e5ef5c8ac940928fbab537e4559.info
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      fullPath: D:\Unity\Infinity Runner Game\Library\shadercompiler-UnityShaderCompiler.exe0.log
+      projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: D:\Unity\Infinity Runner Game\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      fullPath: D:\Unity\Infinity Runner Game\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      fullPath: D:\Unity\Infinity Runner Game\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 6ea3e870c5e0d30bd28625ec7ac1519d76f3f359
     mergeA: 
     mergeB: 

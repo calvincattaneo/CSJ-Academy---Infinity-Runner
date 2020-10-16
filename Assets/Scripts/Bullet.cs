@@ -6,6 +6,10 @@ public class Bullet : MonoBehaviour {
 
     public float Speed;
 
+    void Start() {
+        Destroy(gameObject, 3f);    
+    }
+
     // Update is called once per frame
     void Update() {
         transform.Translate(Vector3.right * Speed * Time.deltaTime);
