@@ -28,8 +28,12 @@ public class Enemy : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(collision.gameObject.tag == "Bullet") {
+            GetComponent<CircleCollider2D>().enabled = false;//Desabilita fumaca
             anim.SetTrigger("destroy");
-            Destroy(gameObject, 2f);
+            Destroy(gameObject, 0.6f);
+
+            //Acessa script game controller e soma pontos
+            GameController.current.AddScore(10);
         }
     }
 }
