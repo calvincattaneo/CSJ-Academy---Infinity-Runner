@@ -19,10 +19,12 @@ public class Enemy : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         //transform.Translate(Vector3.left * Speed * Time.deltaTime);
-        rig.velocity = new Vector2(-Speed, rig.velocity.y);
+        if (GameController.current.PlayerIsAlive) {
+            rig.velocity = new Vector2(-Speed, rig.velocity.y);
 
-        if (transform.position.x < backPoint.position.x) {
-            Destroy(gameObject);
+            if (transform.position.x < backPoint.position.x) {
+                Destroy(gameObject);
+            }
         }
     }
 

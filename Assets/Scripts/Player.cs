@@ -34,6 +34,18 @@ public class Player : MonoBehaviour {
         }
     }
 
+    public void JumpBt() {
+        if (!isJumping) {
+            rig.AddForce(Vector2.up * JumpForce, ForceMode2D.Impulse);
+            isJumping = true;
+            smoke.SetActive(true);
+        }
+    }
+
+    public void Fire() {
+        Instantiate(bullet, firePoint.transform.position, firePoint.transform.rotation);
+    }
+
     private void OnCollisionEnter2D(Collision2D collision) {
         if(collision.gameObject.layer == 8) {
             isJumping = false;
@@ -45,6 +57,13 @@ public class Player : MonoBehaviour {
         if(collision.gameObject.tag == "Coin") {
             GameController.current.AddScore(5);
             Destroy(collision.gameObject);
+        }
+
+        if(collision.gameObject.tag == "Enemy") {
+            GameController.current.PlayerIsAlive = false;
+            Destroy(collision.gameObject);
+
+            GameController.current.GameOverPanel.SetActive(true);
         }
     }
 }

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Cam.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Platform.cs" />
     <Compile Include="Assets\Scripts\PlatformGeneration.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />

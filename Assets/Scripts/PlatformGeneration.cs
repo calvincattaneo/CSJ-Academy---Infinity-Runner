@@ -23,10 +23,12 @@ public class PlatformGeneration : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if(transform.position.x < point.position.x) {
-            float Distance = Random.Range(minDistance, maxDistance);
-            transform.position = new Vector3(transform.position.x + platformWidth + Distance, transform.position.y, transform.position.z);
-            Instantiate(Platform, transform.position, transform.rotation);
-        }
+        if (GameController.current.PlayerIsAlive) {
+            if (transform.position.x < point.position.x) {
+                float Distance = Random.Range(minDistance, maxDistance);
+                transform.position = new Vector3(transform.position.x + platformWidth + Distance, transform.position.y, transform.position.z);
+                Instantiate(Platform, transform.position, transform.rotation);
+            }
+        }    
     }
 }
